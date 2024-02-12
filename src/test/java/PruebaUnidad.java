@@ -19,7 +19,7 @@ public class PruebaUnidad
     }
 
     @Test
-    public void PruebaComparacionVersionAtigua()
+    public void PruebaComparacionVersionAntigua()
     {
         Assertions.assertArrayEquals(arreglo3, arreglo2);
     }
