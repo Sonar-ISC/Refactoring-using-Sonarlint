@@ -1,12 +1,16 @@
-package org.Criba;
+package org.criba;
 
 import java.util.Arrays;
 
 public class CribaRefactorizada
 {
+    private CribaRefactorizada()
+    {
+        throw new IllegalStateException("Utility class");
+    }
     public static int[] generarPrimos (int max)
     {
-        if (max < 2) //invertir el if (eliminando el if-else)
+        if (max < 2)
         {
             return new int[0];
         }

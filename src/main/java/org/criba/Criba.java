@@ -1,4 +1,4 @@
-package org.Criba;
+package org.criba;
 
 public class Criba
 {

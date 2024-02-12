@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.Criba.CribaRefactorizada;
-import org.Criba.Criba;
+import org.criba.CribaRefactorizada;
+import org.criba.Criba;
 
 
 public class PruebaUnidad
